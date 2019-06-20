@@ -1,0 +1,36 @@
+.logo{
+	padding-left:15cm;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.area{
+	padding-left:-1cm;
+	font-size: 25pt;
+}
+form{
+	height:10cm;
+	width:10cm;
+	margin-left:13cm;
+	font-size:20pt;
+	padding-left:2cm;
+	padding-top:1cm;
+	margin-right: -10cm;
+	margin-bottom:10cm;
+	background-color:white;
+	padding-right:0px;
+
+}
+input{
+	width:7cm;
+	height:1cm;
+}
+body{
+background-image: url('5.jpg');
+background-size: 1380px;
+}

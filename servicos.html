@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Buffet Van Festas</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="servico.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kalam|Shadows+Into+Light+Two" rel="stylesheet">
+	<link rel="icon" href="logo.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="slide.css">
+
+
+</head>
+<body>
+	<div id="inf">
+		<p>Contato: (11)952870646 / Email: vanfesta2012@gmail.com</p>
+	</div>
+	<div class="logo">
+<img src="logo.png" width="250">
+	</div>
+<!--<p class="Domiciliar">Domiciliar</p>-->
+<nav id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="quemsomos.html">Quem Somos</a></li>
+		<li><a href="servicos.html">Serviços</a></li>
+		<li><a href="galeria.html">Galeria de Fotos</a></li>
+		<li><a href="contato.html">Contato</a></li>
+		<li><a href="orcamento.html">Orçamento</a></li>
+
+	</ul>
+	</nav><br><br>
+
+
+	<div id="tudo">
+		<br><br>
+		<p class="venha"> SERVIÇOS</p>
+		<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="destaque1.jpg" width="1000px" height="500px">
+    <!-- legenda <div class="text"></div>-->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="destaque2.jpg" width="1000px" height="500px">
+    <!-- legenda <div class="text">Caption Two</div>-->
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="destaque3.jpg" width="1000px" height="500px">
+    <!-- legenda<div class="text">Caption Three</div>-->
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+	</div>
+	<div id="decora">
+		<p class="decora">Decorações</p>
+		<img class="um" src="um.jpg" width="500">
+		<p class="textodeco"> Temos decorações para todo tipo de evento, você escolhe nós fazemos!<br>
+		Entre em contato conosco, temos a solução para sua festa. </p>
+		<br>
+			<div id="decoracoes">
+			- Chá de bebê<br>
+			- Casamento<br>
+			- Debutante<br>
+			- Aniversários infantis<br>
+			- Batizado<br>
+		</div>
+	</div>
+	<br><br><br><br><br><br>
+		<div id="tudo1">
+					<p class="decora">Cardápio</p>
+					<br>
+
+			<p class="cardapio">O cardápio quem monta é você! Faça uma visita em nossa loja e diga o que
+				você precisa.<br> Para fazer uma visita basta agendar click <a class="aqui" href="contato.html">aqui!</a>
+					<br>- Salgados<br>
+					- Massas<br>
+					- Bolos<br>
+					- Docês<br>
+					- Bebidas<br>
+				</p>
+					<p class="cardapio"> Somos um buffet completo ! </p>	
+					<img class="icone" src="cardapio1.png" width="200">
+			</div>
+		<div id="brinquedos">
+			<p class="decora">Brinquedos</p>
+			<img class="cama" src="cama.jpg" width="400">
+
+			<p class="textodeco">
+			Para a criançada ficar contente em sua festa conheça nossos brinquedos<br><br>
+			- Cama elástica<br>
+			- Piscina de bolinha<br>
+			- Touro mecânico<br></p>
+		</div>
+		<div id="geral">
+					<p class="decora">Serviços em Geral</p><br>
+					<p class="textodeco1">
+
+						- Locação de mesas e cadeiras<br>
+						- Locação do carrinho do algodão doce<br>
+						- Locação do carrinho de pipoca<br>
+						- Locação de toalhas de mesa<br>
+						- Ajudante de cozinha<br>
+						- Garçom<br>
+						- Recepcionista<br>
+						- Cozinheiro<br>
+						- Churrasqueiro<br>
+					</p>
+					<img class='mesa'src="mesa.jpeg" width="400">
+<br><br><br>
+</div>
+
+	<footer>
+				<div id="sobrodape">
+				</div>
+				<p class="van"> Buffet Van Festas - Domiciliar</p>
+				<a href="https://www.facebook.com/buffetdomiciliarvanfesta/"><img  class="face" src="face.png" width="50"></a>
+				<a href="contato.php"><img src="escrever.png" width="50"></a><br><br>
+				<p class='direitos'>&copy Todos os direitos reservados - <a href="https://www.facebook.com/dudadesenvolvimento/"><img src='duda.png' width="50"></a></p>
+			</footer>
+			<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

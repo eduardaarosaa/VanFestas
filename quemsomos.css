@@ -1,0 +1,485 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.logo{
+	padding-left:15cm;
+}
+#menu{
+font-family: 'Shadows Into Light Two', cursive;
+font-size:20px;
+}
+#menu ul{
+	padding-left:8cm;
+}
+#menu ul li{
+	list-style:none;
+	display:inline;
+	margin:0.5cm 0.5cm 0.5cm 0.5cm;
+}
+#menu li a:link{
+	text-decoration:none;
+	color:black;
+}
+#menu li a:hover{
+	text-decoration:none;
+	color:#F4FA58;
+}
+#menu li a:visited{
+	text-decoration:none;
+	color:black;
+}
+#menu li a:actived{
+	text-decoration:none;
+	color:black;
+}
+#tudo{
+	background-color:/*#CBC1A0*/#D8D8D8;
+}
+.destaque{
+	padding-left: 4cm;
+	padding-right: 3cm;
+	padding-top: 2cm;
+}
+.Domiciliar{
+	padding-left: 18cm;
+	font-family: 'Gaegu', cursive;
+	font-size: 16pt;
+	font-weight:bold;
+	padding-bottom:0.5cm; 
+}
+.venha{
+	font-size:50pt;
+	padding-left:7cm;
+
+}
+.conhecer{
+	font-size:25pt;
+	padding-left:13cm;
+	font-family: 'Gaegu', cursive;
+
+}
+
+.orcamento{
+	color:black;
+	text-decoration:none;
+	border:white solid;
+	font-size:25pt;
+	margin-left:15cm;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-bottom:-3cm;
+}
+.decoracoes{
+	font-size:25pt;
+	padding-left:16cm;
+	text-decoration:underline;
+}
+#casamento{
+	padding-left:4cm;
+	float: left;
+	padding-right:0.5cm;
+}
+.titulo{
+	font-size:16pt;
+	padding-left:3cm;
+}
+.cha{
+	margin-left:3cm;
+	font-size:16pt;
+}
+#cha{
+	float:left;
+	padding-right:0.5cm;
+}
+.debutante{
+	font-size:16pt;
+	margin-left:26cm;
+	}
+.servicos{
+	padding-left:13cm;
+	font-size:20pt;
+}
+.servico{
+	color:black;
+	text-decoration:none;
+	border:black solid;
+	font-size:25pt;
+	margin-left:15cm;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-bottom:-3cm;
+}
+
+#inf{
+	width:100%;
+	height:40px;
+	background-color:#FFD700;
+}
+#inf p {
+	padding-top:0.2cm;
+	padding-left:1cm;
+	padding-bottom: 0.2cm;
+	color:black;
+}
+#tudo2{
+	margin-top: 30px;
+    background-image: url("foto2.jpg");
+    min-height: 170px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#local{
+	width:100%;
+	height:600px;
+	background-color:#D8D8D8;
+}
+.localizacao{
+	font-size:25pt;
+	padding-left:15cm;
+	padding-top: 1cm;
+}
+#white{
+	width:30cm;
+	height:12cm;
+	background-color: white;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	margin-top:1cm;
+	}
+iframe{
+	padding-top: 1cm;
+	padding-left: 2cm;
+	float:left;
+	padding-right: 2cm;
+}
+.end{
+	font-size: 16pt;
+	padding-top: 3cm;
+}
+.visita{
+	font-size:18pt;
+	border:black solid;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-left: 18cm;
+	margin-right: 5cm;
+	margin-top: 1cm;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.bolinhas{
+	padding-left:7cm;
+}
+#sobrodape{
+	width:100%;
+	height:30px;
+	background-color:#FFD700;
+}
+footer{
+	width:100%;
+	height:200px;
+	clear:both;
+}
+.van{
+
+	margin-top: 1cm;
+	margin-left: 15cm;
+	font-size:18pt;
+font-family: 'Shadows Into Light Two', cursive;
+
+}
+.face{
+	padding-left:18cm;
+	padding-top: 1cm;
+}
+.quem{
+	font-size:30pt;
+	padding-left: 15cm;
+}
+.textoquem{
+	font-size:16pt;
+	text-align:justify;
+	padding-left:2cm;
+	padding-right:2cm;
+}
+.fotoquem{
+	padding-left: 6cm;
+	padding-right: 6cm;
+}
+.titulos{
+	color:#FFD700;
+	font-size:20pt;
+	padding-left: 6cm;
+}
+#missao{
+	width:5cm;
+	height:6cm;
+	background-color:#F4FA58;
+	font-size: 14pt;
+	float: left;
+	margin-left:6cm;
+	padding-left:1cm;
+	padding-bottom: 1cm;
+	padding-right:1cm;
+	text-align:justify;
+}
+#visao{
+	margin-left:1cm;
+	width:5cm;
+	height:6cm;
+	background-color:#F4FA58;
+	font-size: 14pt;
+	float: left;
+	padding-left:1cm;
+	padding-bottom: 1cm;
+	padding-right:1cm;
+	text-align:justify;
+}
+#valores{
+	margin-left:1cm;
+	width:5cm;
+	height:6cm;
+	background-color:#F4FA58;
+	font-size: 14pt;
+	float: left;
+	padding-left:1cm;
+	padding-bottom: 1cm;
+	padding-right:1cm;
+	text-align:justify;
+}
+#destaquequem{
+	margin-top: 30px;
+    background-image: url("24.jpg");
+    min-height: 170px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear:both;
+}
+.fun{
+	font-size:14pt;
+	padding-left:15.5cm;
+}
+.direitos{
+	padding-left: 15cm;
+}
+
+/* Desgin responsive */
+@media screen and (max-width: 1100px) {
+	.logo{
+		padding-left:12cm;
+	}
+	#menu ul{
+		padding-left:5cm;
+	}
+	.fotoquem{
+		width:600px;
+		padding-left:6cm;
+	}
+	.quem{
+		padding-left:12cm;
+	}
+	.fun{
+		padding-left:12cm;
+	}
+	#visão{
+		float:none;
+	}
+	#valores{
+		margin-top: 1cm;
+		margin-left:6cm;
+	}
+	.localizacao{
+		padding-left:12cm;
+	}
+	iframe{
+		width:250px;
+	}
+	#white{
+		width:900px;
+	}
+	.visita{
+		margin-left:12cm;
+		margin-right:5cm;
+		padding-right:0cm;
+		padding-left: 1cm;
+	}
+	.van{
+		margin-left:13cm;
+		}
+	.face{
+		padding-left:15cm;
+	}
+	.direitos{
+		padding-left:13cm;
+	}
+}
+@media screen and (max-width: 960px) {
+	.logo{
+		padding-left:9cm;
+	}
+	#menu ul{
+		padding-left:3cm;
+	}
+	.fotoquem{
+		width:700px;
+		padding-left:3cm;
+	}
+	.quem{
+		padding-left:10cm;
+	}
+	.fun{
+		padding-left:10cm;
+	}
+	.localizacao{
+		padding-left:8cm;
+	}
+	#white{
+		width:800px;
+	}
+	iframe{
+		padding-right:0px;
+	}
+	.visita{
+		margin-left:10cm;
+	}
+	.van{
+		margin-left:10cm;
+	}
+	.face{
+		padding-left:12cm;
+	}
+	.direitos{
+		padding-left:10cm;
+	}
+}
+@media screen and (max-width: 768px) {
+	.logo{
+		padding-left:6cm;
+	}
+	#menu ul{
+		padding:0px;
+	}
+	.quem{
+		padding-left:7cm;
+	}
+	.fotoquem{
+		width:650px;
+		padding-left:1.5cm;
+	}
+	.fun{
+		padding-left:7cm;
+	}
+	#missao{
+		float:none;
+	}
+	#visao{
+		float:none;
+		margin-top: 1cm;
+		margin-left:6cm;
+	}
+	#valores{
+		float:none;
+	}
+	iframe{
+		width:250px;
+		padding-left:1cm;
+	}
+	#white{
+		width:600px;
+	}
+	.visita{
+		margin-left:9cm;
+		margin-right:1cm;
+		padding-left:0.5cm;
+		padding-top:0.5cm;
+		padding-bottom:0.5cm;
+		padding-right:0.5cm;
+
+	}
+	.van{
+		margin-left:7cm;
+	}
+	.face{
+		padding-left:10cm;
+	}
+	.direitos{
+		padding-left:7cm;
+	}
+}
+@media screen and (max-width: 480px) {
+	.logo{
+		padding-left:2cm;
+	}
+	#menu ul li{
+		display:block;
+		margin-left:0px;
+		padding-left:0px;
+	}
+	#menu ul{
+		padding-left:3cm;
+	}
+	.quem{
+		padding-left:3cm;
+	}
+	.fotoquem{
+		padding-left:1cm;
+		width:400px;
+	}
+	.fun{
+		padding-left:3cm;
+	}
+	#missao{
+		margin-left:2.5cm;
+		margin-top:2cm;
+	}
+	#visao{
+		margin-left:2.5cm;
+		margin-top:2cm;
+	}
+	#valores{
+		margin-left:2.5cm;
+		margin-top:2cm;
+	}
+	.localizacao{
+		padding-left:2cm;
+	}
+	iframe{
+		width:300px;
+		float:none;
+	}
+	#white{
+		width:350px;
+	}
+	.end{
+		margin-top:-3cm;
+		font-size:14pt;
+	}
+	.visita{
+		border:none;
+		margin-left:2cm;
+		margin-top:0cm;
+		text-decoration:underline;
+	}
+	.van{
+		margin-left:2cm;
+	}
+	.face{
+		padding-left:3cm;
+	}
+	.direitos{
+		padding-left:2cm;
+	}
+}

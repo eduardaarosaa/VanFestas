@@ -1,0 +1,471 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.logo{
+	padding-left:15cm;
+}
+#menu{
+font-family: 'Shadows Into Light Two', cursive;
+font-size:20px;
+}
+#menu ul{
+	padding-left:8cm;
+}
+#menu ul li{
+	list-style:none;
+	display:inline;
+	margin:0.5cm 0.5cm 0.5cm 0.5cm;
+}
+#menu li a:link{
+	text-decoration:none;
+	color:black;
+}
+#menu li a:hover{
+	text-decoration:none;
+	color:#F4FA58;
+}
+#menu li a:visited{
+	text-decoration:none;
+	color:black;
+}
+#menu li a:actived{
+	text-decoration:none;
+	color:black;
+}
+#tudo{
+	background-color:/*#CBC1A0*/#D8D8D8;
+}
+.destaque{
+	padding-left: 4cm;
+	padding-right: 3cm;
+	padding-top: 2cm;
+}
+.Domiciliar{
+	padding-left: 18cm;
+	font-family: 'Gaegu', cursive;
+	font-size: 16pt;
+	font-weight:bold;
+	padding-bottom:0.5cm; 
+}
+.venha{
+	font-size:35pt;
+	padding-left:3cm;
+
+}
+.conhecer{
+	font-size:25pt;
+	padding-left:13cm;
+	font-family: 'Gaegu', cursive;
+
+}
+
+.orcamento{
+	color:black;
+	text-decoration:none;
+	border:white solid;
+	font-size:25pt;
+	margin-left:15cm;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-bottom:-3cm;
+}
+.decoracoes{
+	font-size:25pt;
+	padding-left:16cm;
+	text-decoration:underline;
+}
+#casamento{
+	padding-left:4cm;
+	float: left;
+	padding-right:0.5cm;
+}
+.titulo{
+	font-size:16pt;
+	padding-left:3cm;
+}
+.cha{
+	margin-left:3cm;
+	font-size:16pt;
+}
+#cha{
+	float:left;
+	padding-right:0.5cm;
+}
+.debutante{
+	font-size:16pt;
+	margin-left:26cm;
+	}
+.servicos{
+	padding-left:13cm;
+	font-size:20pt;
+}
+.servico{
+	color:black;
+	text-decoration:none;
+	border:black solid;
+	font-size:25pt;
+	margin-left:15cm;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-bottom:-3cm;
+}
+
+#inf{
+	width:100%;
+	height:40px;
+	background-color:#FFD700;
+}
+#inf p {
+	padding-top:0.2cm;
+	padding-left:1cm;
+	padding-bottom: 0.2cm;
+	color:black;
+}
+#tudo2{
+	margin-top: 30px;
+    background-image: url("foto2.jpg");
+    min-height: 170px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#local{
+	width:100%;
+	height:600px;
+	background-color:#D8D8D8;
+}
+.localizacao{
+	font-size:25pt;
+	padding-left:15cm;
+	padding-top: 1cm;
+}
+#white{
+	width:30cm;
+	height:12cm;
+	background-color: white;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	margin-top:1cm;
+	}
+iframe{
+	padding-top: 1cm;
+	padding-left: 2cm;
+	float:left;
+	padding-right: 2cm;
+}
+.end{
+	font-size: 16pt;
+	padding-top: 3cm;
+}
+.visita{
+	font-size:18pt;
+	border:black solid;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-left: 18cm;
+	margin-right: 5cm;
+	margin-top: 1cm;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.bolinhas{
+	padding-left:7cm;
+}
+#sobrodape{
+	width:100%;
+	height:30px;
+	background-color:#FFD700;
+}
+footer{
+	width:100%;
+	height:200px;
+	clear:both;
+}
+.van{
+
+	margin-top: 1cm;
+	margin-left: 15cm;
+	font-size:18pt;
+font-family: 'Shadows Into Light Two', cursive;
+
+}
+.face{
+	padding-left:18cm;
+	padding-top: 1cm;
+}
+
+.servi{
+	padding-left: 7cm;
+	padding-right: 3cm;
+	padding-top: 1cm;
+}
+.decora{
+	Font-size:30pt;
+	padding-left: 15cm;	
+}
+.um{
+	padding-left:2cm;
+	padding-top:2cm;
+	float:left;
+	padding-right:2cm;
+	padding-bottom:2cm;
+
+}
+.textodeco{
+	padding-top:3cm;
+	font-size:16pt;
+}
+
+#decoracoes{
+	font-size:14pt;
+}
+.cardapio{
+	clear:both;
+	float:left;
+	font-size:16pt;
+	background-color:/*#CBC1A0*/#D8D8D8;
+	padding-left: 2cm;
+
+}
+
+#tudo1{
+		background-color:/*#CBC1A0*/#D8D8D8;
+		clear:both;
+}
+.icone{
+	padding-top: 2cm;
+}
+.aqui{
+	color:#006400;
+}
+
+.cama{
+	float: left;
+	padding-left: 2cm;
+	padding-right:2cm;
+}
+#geral{
+	clear: both;
+	background-color:/*#CBC1A0*/#D8D8D8;
+
+}
+.textodeco1{
+	font-size:16pt;
+	padding-left:2cm;
+	float:left;
+	padding-right: 10cm;
+}
+.direitos{
+	padding-left: 15cm;
+}
+
+/* Design responsivo*/
+
+@media screen and (max-width: 1200px) {
+.logo{
+	padding-left:12cm;
+}
+#menu ul{
+	padding-left:6cm;
+}
+.servi{
+	padding-left:4.5cm;
+}
+.decora{
+	padding-left:13cm;
+	padding-top:1cm;
+}
+.um{
+	padding-right:1cm;
+	padding-bottom:2cm;
+}
+.cama{
+	padding-right:1cm;
+}
+.textodeco1{
+	padding-right:7cm;
+}
+.van{
+	margin-left:12cm;
+}
+.face{
+	padding-left:14cm;
+}
+.direitos{
+	padding-left:12cm;
+}
+}
+@media screen and (max-width: 1100px) {
+
+.logo{
+	padding-left:10cm;
+}
+#menu ul{
+	padding-left:5cm;
+}
+
+.van{
+	margin-left:10cm;
+}
+.face{
+	padding-left:12cm;
+}
+.direitos{
+	padding-left:10cm;
+}
+}
+@media screen and (max-width: 960px) {
+
+.logo{
+	padding-left:8cm;
+}
+#menu ul{
+	padding-left:3cm;
+}
+.servi{
+	width:800px;
+	padding-left:2cm;
+}
+.decora{
+	padding-left:9cm;
+	font-size:22pt;
+}
+.textodeco{
+	font-size: 14pt;
+}
+.decoracoes{
+	font-size:12pt;
+}
+.cardapio{
+	font-size: 14pt;
+}
+.textodeco1{
+	font-size: 14pt;
+	padding-right:3cm;
+
+}
+.mesa{
+	width:350px;
+}
+.van{
+	margin-left:8cm;
+}
+.face{
+	padding-left:10cm;
+}
+.direitos{
+	padding-left:8cm;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.logo{
+	padding-left:6cm;
+}
+#menu ul{
+	padding-left:0px;
+}
+.venha{
+	font-size:28pt;
+}
+.servi{
+	width:600px;
+}
+.um{
+	width:300px;
+}
+.cardapio{
+	font-size:14pt;
+	float:none;
+	padding-bottom:1cm;
+}
+.icone{
+	display:none;
+}
+.cama{
+	width:300px;
+}
+.textodeco1{
+	padding-right:0.5cm;
+}
+.mesa{
+	width:300px;
+}
+.textodeco{
+	padding-top:2cm;
+}
+.van{
+	margin-left:6cm;
+}
+.face{
+	padding-left:8cm;
+}
+.direitos{
+	padding-left:6cm;
+}
+}
+@media screen and (max-width: 480px) {
+
+.logo{
+	padding-left:2cm;
+}
+#menu ul li{
+	display:block;
+	margin-left:0px;
+	padding-left:0px;
+}
+#menu ul{
+	padding-left:3cm;
+	}
+.servi{
+	width:350px;
+	padding-left:1.5cm;
+}
+.decora{
+	padding-left:2cm;
+}
+.um{
+	float:none;
+	width:400px;
+	padding-left:0.5cm;
+}
+.textodeco{
+	padding:1cm;
+}
+#decoracoes{
+	padding-left:1cm;
+}
+.cardapio{
+	padding-left:1cm;
+}
+.cama{
+	width:250px;
+	float:none;
+}
+.mesa{
+	padding-left:1cm;
+	padding-top:1cm;
+}
+.van{
+	margin-left:1.5cm;
+}
+.face{
+	padding-left:3.5cm;
+}
+.direitos{
+	padding-left:1.5cm;
+}
+}
+
+

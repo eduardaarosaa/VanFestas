@@ -1,0 +1,653 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.logo{
+	padding-left:15cm;
+}
+#menu{
+font-family: 'Shadows Into Light Two', cursive;
+font-size:20px;
+}
+#menu ul{
+	padding-left:8cm;
+}
+#menu ul li{
+	list-style:none;
+	display:inline;
+	margin:0.5cm 0.5cm 0.5cm 0.5cm;
+}
+#menu li a:link{
+	text-decoration:none;
+	color:black;
+}
+#menu li a:hover{
+	text-decoration:none;
+	color:#F4FA58;
+}
+#menu li a:visited{
+	text-decoration:none;
+	color:black;
+}
+#menu li a:actived{
+	text-decoration:none;
+	color:black;
+}
+#tudo{
+	background-color:/*#CBC1A0*/#D8D8D8;
+}
+.destaque{
+	padding-left: 4cm;
+	padding-right: 3cm;
+	padding-top: 2cm;
+}
+
+.venha{
+	font-size:50pt;
+	padding-left:7cm;
+
+}
+.conhecer{
+	font-size:25pt;
+	padding-left:13cm;
+	font-family: 'Shadows Into Light Two', cursive;
+
+
+}
+
+.orcamento{
+	color:black;
+	text-decoration:none;
+	border:white solid;
+	font-size:25pt;
+	margin-left:15cm;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-bottom:-3cm;
+}
+.decoracoes{
+	font-size:25pt;
+	padding-left:16cm;
+}
+#casamento{
+	padding-left:4cm;
+	float: left;
+	padding-right:0.5cm;
+}
+.titulo{
+	font-size:16pt;
+	padding-left:3cm;
+}
+.cha{
+	margin-left:3cm;
+	font-size:16pt;
+}
+#cha{
+	float:left;
+	padding-right:0.5cm;
+}
+.debutante{
+	font-size:16pt;
+	margin-left:26cm;
+	}
+	#debutante img{
+		margin-top:-0.5cm;
+	}
+.servicos{
+	padding-left:13cm;
+	font-size:20pt;
+}
+.servico{
+	color:black;
+	text-decoration:none;
+	border:black solid;
+	font-size:25pt;
+	margin-left:15cm;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-bottom:-3cm;
+}
+
+#inf{
+	width:100%;
+	height:40px;
+	background-color:#FFD700;
+}
+#inf p {
+	padding-top:0.2cm;
+	padding-left:1cm;
+	padding-bottom: 0.2cm;
+	color:black;
+}
+#tudo2{
+	margin-top: 30px;
+    background-image: url("foto2.jpg");
+    min-height: 170px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#local{
+	width:100%;
+	height:600px;
+	background-color:#D8D8D8;
+}
+.localizacao{
+	font-size:25pt;
+	padding-left:15cm;
+	padding-top: 1cm;
+}
+#white{
+	width:30cm;
+	height:12cm;
+	background-color: white;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	margin-top:1cm;
+	}
+iframe{
+	padding-top: 1cm;
+	padding-left: 2cm;
+	float:left;
+	padding-right: 2cm;
+}
+.end{
+	font-size: 16pt;
+	padding-top: 3cm;
+}
+.visita{
+	font-size:18pt;
+	border:black solid;
+	padding-left:1cm;
+	padding-top:0.5cm;
+	padding-bottom:0.5cm;
+	padding-right:1cm;
+	margin-left: 18cm;
+	margin-right: 5cm;
+	margin-top: 1cm;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.bolinhas{
+	padding-left:7cm;
+}
+#sobrodape{
+	width:100%;
+	height:30px;
+	background-color:#FFD700;
+}
+footer{
+	width:100%;
+	height:200px;
+}
+.van{
+
+	margin-top: 1cm;
+	margin-left: 15cm;
+	font-size:18pt;
+font-family: 'Shadows Into Light Two', cursive;
+
+}
+.face{
+	padding-left:18cm;
+	padding-top: 1cm;
+}
+.direitos{
+	padding-left: 15cm;
+}
+.men{
+	font-size:20pt;
+	color:#FFD700;
+	padding-top:3cm;
+}
+/* Desgin responsive */
+@media screen and (max-width: 1280px) {
+	.venha{
+		font-size:30pt;
+		padding-left:12cm;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.logo{
+		padding-left:12cm;
+	}
+	#menu ul{
+		padding-left:5cm;
+	}
+	.destaque{
+		width:1000px;
+		padding-left:2.5cm;
+
+	}
+	#cha{
+		float:left;
+	}
+	.debutante{
+		margin:0px;
+
+		}
+	#debutante{
+		padding-left:4cm;
+	}
+	#casamento img{
+		width:300px;
+		height:200px;
+	}
+	#casamento{
+		padding-left:3cm;
+	}
+	#cha img{
+		width:300px;
+	}
+	#debutante img{
+		width:300px;
+		height:200px;
+		margin-top:-0.5cm;
+		}
+	#white{
+		width:1100px;
+		padding:-10px;
+	}
+	.bolinhas{
+		display:none;
+	}
+	.van{
+		margin-left:12cm;
+	}
+	.face{
+		padding-left:15cm;
+	}
+	.direitos{
+		padding-left:12cm;
+	}
+
+}
+
+@media screen and (max-width: 1100px){
+	.logo{
+		padding-left:400px;
+	}
+	#menu ul{
+		padding-left:200px;
+	}
+	.destaque{
+		width:800px;
+	}
+	.conhecer{
+	padding-left:12cm;
+	font-size: 22pt;
+}
+.venha{
+	padding-left:10cm;
+	font-size:26pt;
+}
+.orcamento{
+	margin-left:500px;
+	font-size:22;
+}
+#casamento{
+	float:left;
+	padding-left:100px;
+}
+#cha{
+	float:none;
+	padding-left:250px;
+
+}
+.cha{
+	padding-left:230px;
+
+}
+#debutante{
+	float:none;
+	padding-left:100px;
+
+}
+.debutante{
+	margin-left:115px;
+}
+.servicos{
+	padding-left:320px;
+}
+.servico{
+	margin-left:390px;
+}
+.localizacao{
+	padding-left:380px;
+}
+#white{
+	margin-left:0px;
+	padding-left:0px;
+	margin-bottom:30px;
+}
+iframe{
+	width:780px;
+	float:none;
+}
+.end{
+	font-size:20pt;
+	margin-top:-100px;
+	margin-left:100px;
+
+}
+
+.visita{
+	margin-left:100px;
+	margin-right:300px;
+	padding-left: 300px;
+	padding-right:200px;
+	margin-top:-10px;
+	text-decoration:underline;
+	border:none;
+}
+.bolinhas{
+	display:none;
+}
+.van{
+	margin-left:400px;
+}
+.face{
+	margin-left:0px;
+	padding-left:480px;
+}
+.direitos{
+	padding-left:400px;
+}
+}
+}
+
+@media screen and (max-width: 960px) {
+.logo{
+	padding-left:350px;
+
+}
+#menu ul li{
+	display:inline;
+	margin-left:0px;
+	padding-left:0px;
+}
+#menu ul{
+	padding-left:5cm;
+}
+.destaque{
+	width:600px;
+	padding-left:2cm;
+}
+.conhecer{
+	padding-left:9cm;
+	font-size: 22pt;
+}
+.venha{
+	padding-left:8cm;
+	font-size:26pt;
+}
+.orcamento{
+	margin-left:380px;
+	font-size:22;
+}
+#casamento{
+	float:left;
+	padding-left:100px;
+}
+#cha{
+	float:none;
+	padding-left:250px;
+
+}
+.cha{
+	padding-left:230px;
+
+}
+#debutante{
+	float:none;
+	padding-left:100px;
+
+}
+.debutante{
+	margin-left:115px;
+}
+.servicos{
+	padding-left:250px;
+}
+.servico{
+	margin-left:300px;
+}
+.localizacao{
+	padding-left:300px;
+}
+#white{
+	margin-left:0px;
+	padding-left:0px;
+	margin-bottom:30px;
+}
+iframe{
+	width:750px;
+	float:none;
+}
+.end{
+	font-size:20pt;
+	margin-top:-100px;
+	margin-left:100px;
+
+}
+
+.visita{
+	margin-left:100px;
+	margin-right:300px;
+	padding-left: 300px;
+	padding-right:200px;
+	margin-top:-10px;
+	text-decoration:underline;
+	border:none;
+}
+.bolinhas{
+	display:none;
+}
+.van{
+	margin-left:300px;
+}
+.face{
+	margin-left:0px;
+	padding-left:380px;
+}
+.direitos{
+	padding-left:300px;
+}
+}
+@media screen and (max-width: 768px) {
+.logo{
+	padding-left:250px;
+}
+#menu ul{
+	padding-left:0cm;
+}
+.destaque{
+	width:600px;
+	padding-left:2cm;
+}
+.conhecer{
+	padding-left:7cm;
+	font-size: 20pt;
+}
+.venha{
+	padding-left:6cm;
+	font-size:22pt;
+}
+.orcamento{
+	margin-left:300px;
+	font-size:20;
+
+}
+.decoracoes{
+	padding-left:300px;
+}
+#casamento{
+	float:none;
+	padding-left:250px;
+}
+#cha{
+	float:none;
+	padding-left:250px;
+
+}
+.cha{
+	margin-left:-100px;
+
+}
+#debutante{
+	float:none;
+	padding-left:250px;
+
+}
+.debutante{
+	margin-left:115px;
+}
+.servicos{
+	padding-left:250px;
+}
+.servico{
+	margin-left:300px;
+}
+.localizacao{
+	padding-left:300px;
+}
+#white{
+	margin-left:0px;
+	padding-left:0px;
+	margin-bottom:30px;
+}
+iframe{
+	width:500px;
+	float:none;
+}
+.end{
+	font-size:18pt;
+	margin-top:-90px;
+
+}
+.visita{
+	margin-left:0px;
+	margin-right:0px;
+	padding-left: 215px;
+	padding-right:0px;
+	margin-top:-10px;
+	border:none;
+	text-decoration:underline;
+}
+.bolinhas{
+	display:none;
+}
+.van{
+	margin-left:200px;
+}
+.face{
+	margin-left:0px;
+	padding-left:280px;
+}
+.direitos{
+	padding-left:200px;
+}
+}
+@media screen and (max-width: 480px) {
+.logo{
+	padding-left:80px;
+}
+.destaque{
+	width:400px;
+	padding-left:1cm;
+}
+.conhecer{
+	padding-left:1cm;
+	font-size: 14pt;
+}
+.venha{
+	padding-left:2cm;
+	font-size:18pt;
+}
+.orcamento{
+	margin-left:100px;
+	font-size:16;
+
+}
+.decoracoes{
+	padding-left:40px;
+}
+#casamento{
+	float:none;
+	padding-left:40px;
+}
+#cha{
+	float:none;
+	padding-left:40px;
+
+}
+#debutante{
+	float:none;
+	padding-left:40px;
+
+}
+.debutante{
+	margin-left:115px;
+}
+.servicos{
+	padding-left:30px;
+}
+.servico{
+	margin-left:115px;
+}
+.localizacao{
+	padding-left:0px;
+}
+#white{
+	margin-left:0px;
+	padding-left:0px;
+	margin-bottom:30px;
+}
+iframe{
+	width:300px;
+	float:none;
+}
+.end{
+	font-size:12pt;
+}
+.visita{
+	margin-left:0px;
+	margin-right:0px;
+	padding-left: 115px;
+	padding-right:0px;
+	margin-top:-1px;
+	border:none;
+	text-decoration:underline;
+}
+.bolinhas{
+	display:none;
+}
+.van{
+	margin-left:100px;
+}
+.face{
+	margin-left:0px;
+	padding-left:180px;
+}
+.direitos{
+	padding-left:100px;
+
+}
+#menu ul li{
+	display:block;
+	margin-left:0px;
+	padding-left:0px;
+}
+#menu ul{
+	padding-left:3cm;
+}
+}
+
+
